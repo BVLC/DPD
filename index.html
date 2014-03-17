@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+  Berkeley Vision and Learning Center (BVLC)
+
+  Design based on:
+  Strongly Typed 1.0 by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Berkeley Vision and Learning Center</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=1040" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="css/skel-noscript.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-desktop.css" />
+    </noscript>
+  </head>
+  <body class="homepage">
+
+    <!-- Header Wrapper -->
+      <div id="header-wrapper">
+
+        <!-- Header -->
+          <div id="header" class="container">
+
+            <!-- Logo -->
+            <h1 id="logo">
+              <a id="home" href="#">Berkeley Vision and Learning Center</a>
+          </div>
+      </div>
+    <hr><br>
+    <div class="dpd" style="width:70%">
+        <!-- <h3><b>Deformable Part Descriptors</b> for Fine-grained Recognition and Attribute Prediction</h3> -->
+        <font size="6">
+        <b>Deformable Part Descriptors (DPD)</b> for Fine-grained Recognition and Attribute Prediction
+        </font>
+
+        <br><br>
+        <img src="images/dpd_overview.jpg" width="70%">
+
+            <br><br>
+            <b>Abstract</b>
+            <br>
+            Recognizing objects in fine-grained domains can be
+            extremely challenging due to the subtle differences between
+            subcategories. Discriminative markings are often
+            highly localized, leading traditional object recognition approaches
+            to struggle with the large pose variation often
+            present in these domains. Pose-normalization seeks to align
+            training exemplars, either piecewise by part or globally
+            for the whole object, effectively factoring out differences
+            in pose and in viewing angle. Prior approaches relied
+            on computationally-expensive filter ensembles for part localization
+            and required extensive supervision. This paper
+            proposes two pose-normalized descriptors based on
+            computationally-efficient deformable part models. The
+            first leverages the semantics inherent in strongly-supervised
+            DPM parts. The second exploits weak semantic annotations
+            to learn cross-component correspondences, computing
+            pose-normalized descriptors from the latent parts of
+            a weakly-supervised DPM. These representations enable
+            pooling across pose and viewpoint, in turn facilitating tasks
+            such as fine-grained recognition and attribute prediction.
+            Experiments conducted on the Caltech-UCSD Birds 200
+            dataset and Berkeley Human Attribute dataset demonstrate
+            significant improvements over state-of-art algorithms.
+
+      <br><br>
+      <b>Paper</b>
+      <br>
+        Ning Zhang, Ryan Farrell, Forrest Iandola, and Trevor Darrell.
+        "Deformable Part Descriptors for Fine-grained Recognition and Attribute Prediction."
+        International Conference on Computer Vision (ICCV), 2013.
+        <br><a href="http://www.cs.berkeley.edu/~nzhang/papers/dpd_iccv13_final.pdf">Download (PDF)</a>
+
+        <br><a href="https://github.com/BVLC/dpd/tarball/master">Download Code (TAR)</a>
+        <br><a href="https://github.com/BVLC/dpd/zipball/master">Download Code (ZIP)</a>
+
+    </div>
+
+
+    <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+
+        <!-- Copyright -->
+          <div id="copyright" class="container">
+            <ul class="links">
+              <li>&copy; BVLC 2013.</li>
+              <li>Design based on: <a href="http://html5up.net/">HTML5 UP</a></li>
+            </ul>
+          </div>
+
+      </div>
+
+  </body>
+</html>
